@@ -1,0 +1,11 @@
+import pandas as pd
+df=pd.read_csv(r"C:\Python39\Datasets\Viz.csv")
+df1=df.fillna(0)
+print(df1['Flutter (skill out of 5)'].value_counts())
+print(df1['Flask (skill out of 5)'].value_counts())
+print(df1['Firebase (skill out of 5)'].value_counts())
+print(df1['GCP (skill out of 5)'].value_counts())
+print(df1['AWS (skill out of 5)'].value_counts())
+print(df1['Predictive Modelling (skill out of 5)'].value_counts())
+print(df1['EDA (skill out of 5)'].value_counts())
+print(df1['NLP (skill out of 5)'].value_counts())
